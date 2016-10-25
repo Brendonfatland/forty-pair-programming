@@ -8,7 +8,7 @@ h1 {
 .row1 {
   padding-top:40px;
   margin-top: 15px;
-  width:85.8%;
+  width:85.7%;
   height:200px;
   background-image: url("../images/bg.jpg");
   background-repeat:no-repeat;
@@ -102,19 +102,39 @@ h1 {
 }
 
 .row5 {
-  padding-top:40px;
-  margin-top: 15px;
-  width:85.8%;
-  height:200px;
+  width:85.7%;
+  height: 200px;
   background-image: url("../images/bg.jpg");
   background-repeat:no-repeat;
   background-size:cover;
   padding-left:65px;
+  display:inline-block;
 }
 .row5 .inside .text .button{
   margin:0 auto;
   padding-left:65px;
-  display: block;
+  display: inline-block;
+  width:auto;
+}
+.row6{
+  width:86.1%;
+  height:200px;
+  background-image: url("../images/bg.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-left: 60px;
+  display:inline-block;
+}
+.row6 .first input{
+  margin:0 auto;
+  padding-left:65px;
+  display: inline-block;
+  width:20%;
+}
+.row6 .second{
+  padding-top: 10px;
+  padding-left: 65px;
+
 }
 
 .inside{
